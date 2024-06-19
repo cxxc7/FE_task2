@@ -1,0 +1,1 @@
+This project is a React-based web application that displays currently showing movies fetched from an external API. Users can sort movies by rating (ascending or descending), navigate through them using pagination controls, and view basic information such as movie title and rounded rating out of 10.
