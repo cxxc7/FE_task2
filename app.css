@@ -1,0 +1,83 @@
+.app {
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.error-message {
+  color: red;
+}
+
+.controls {
+  margin: 10px;
+}
+
+.controls button {
+  color: black;
+  margin: 0 10px;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.movie-section {
+  color: rgb(36, 9, 218);
+  size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px ;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.movie-container {
+  color: rgb(15, 233, 233);
+  display: flex;
+  overflow: hidden;
+  width: 50%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movie {
+  margin-bottom: 20px;
+  width: calc(20% - 20px); 
+  max-width: 180px;
+  box-sizing: border-box;
+}
+
+.movie img {
+  width: 120px;
+  height: 220px;
+  object-fit: cover;
+}
+
+@media (min-width: 576px) {
+  .movie {
+    width: calc(20% - 20px); 
+    max-width: none; 
+  }
+}
+
+@media (min-width: 768px) {
+  .movie {
+    width: calc(20% - 20px); 
+  }
+}
+
+@media (min-width: 992px) {
+  .movie {
+    width: calc(20% - 20px); 
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie {
+    width: calc(20% - 20px); 
+  }
+}
