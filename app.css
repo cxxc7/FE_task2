@@ -1,83 +1,46 @@
-.app {
-  color: white;
+/*src/App.css */
+.App {
+  color: black;
   text-align: center;
   font-family: Arial, sans-serif;
-  background-color: black;
+  background-color: white;
 }
 
 .error-message {
   color: red;
 }
 
-.controls {
-  margin: 10px;
-}
-
-.controls button {
-  color: black;
-  margin: 0 10px;
-  padding: 20px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.movie-section {
-  color: rgb(36, 9, 218);
-  size: 60px;
+.movie-list {
+  background-color: black;
+  color: rgb(243, 8, 47);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px ;
-}
-
-.arrow {
-  cursor: pointer;
-  font-size: 24px;
-}
-
-.movie-container {
-  color: rgb(15, 233, 233);
-  display: flex;
-  overflow: hidden;
-  width: 50%;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.movie {
-  margin-bottom: 20px;
-  width: calc(20% - 20px); 
-  max-width: 180px;
-  box-sizing: border-box;
+.movie-card {
+  background-color: silver;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
 }
 
-.movie img {
-  width: 120px;
-  height: 220px;
-  object-fit: cover;
+.movie-card img {
+  background-color: aquamarine;
+  color: brown;
+  width: 100%;
+  height: auto;
 }
 
-@media (min-width: 576px) {
-  .movie {
-    width: calc(20% - 20px); 
-    max-width: none; 
-  }
+.movie-details {
+  background-color: black;
+  color: gold;
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-  .movie {
-    width: calc(20% - 20px); 
-  }
-}
-
-@media (min-width: 992px) {
-  .movie {
-    width: calc(20% - 20px); 
-  }
-}
-
-@media (min-width: 1200px) {
-  .movie {
-    width: calc(20% - 20px); 
-  }
+.movie-details img {
+  background-color: black;
+  color: brown;
+  width: 200px;
+  height: auto;
 }
